@@ -62,6 +62,8 @@ if(cluster.isMaster){
 createServer(() => {}).listen(1234); // 每一个做同一业务的服务器员工起一个http服务
 ```
 
-3. 容错
+3. 缓存
 
-4. 高可用
+4. 容错
+
+5. 高可用
